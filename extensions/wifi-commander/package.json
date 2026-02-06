@@ -8,7 +8,9 @@
   ],
   "license": "MIT",
   "author": "dagimg-dot",
-  "contributors": ["Gareck-OG"],
+  "contributors": [
+    "Gareck-OG"
+  ],
   "pastContributors": [],
   "icon": "wifi_commander.png",
   "commands": [
@@ -64,7 +66,6 @@
           "value": "iwctl"
         }
       ]
-
     }
   ],
   "scripts": {
@@ -72,9 +73,11 @@
     "dev": "vici develop"
   },
   "dependencies": {
-    "@vicinae/api": "^0.14.0"
+    "@vicinae/api": "^0.14.0",
+    "react": "^18.2.0"
   },
   "devDependencies": {
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "@types/react": "^18.2.0"
   }
 }
